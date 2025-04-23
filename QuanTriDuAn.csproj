@@ -125,6 +125,7 @@
     <Compile Include="Controllers\DonHangController.cs" />
     <Compile Include="Controllers\HangController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\IndexKHController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\OrderController.cs" />
     <Compile Include="Controllers\SanPhamController.cs" />
@@ -2378,6 +2379,8 @@
     <Content Include="Views\ThongKe\Index.cshtml" />
     <Content Include="Views\ThongKe\SPDaBan.cshtml" />
     <Content Include="Views\ThongKe\SPHetHang.cshtml" />
+    <Content Include="Views\IndexKH\Index.cshtml" />
+    <Content Include="Views\IndexKH\ProductDetails.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

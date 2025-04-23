@@ -255,6 +255,19 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\14-ultra-trang_9d9b62b4a6394c7ea0f13ce518aa784e.jpg" />
+    <Content Include="Images\14-ultra-trang_9d9b62b4a6394c7ea0f13ce518aa784e.png" />
+    <Content Include="Images\1716973356_loa-marshall-stanmore-iii---mau-nau.2.jpg" />
+    <Content Include="Images\2_52709.jpg" />
+    <Content Include="Images\ck3109742-cac-loai-ram-may-tinh-1.jpg" />
+    <Content Include="Images\galaxy-note-3.jpg" />
+    <Content Include="Images\iphone1.jpg" />
+    <Content Include="Images\loa-bluetooth-marshall-middleton-den-1-750x500.jpg" />
+    <Content Include="Images\may-anh-canon-eos-850d-kit-ef-s18-55mm-f4-56-is-stm.jpg" />
+    <Content Include="Images\OIP.jpg" />
+    <Content Include="Images\phone1.jpg" />
+    <Content Include="Images\phone2.jpg" />
+    <Content Include="Images\xiaomi.png" />
     <Content Include="lib\dist\css\adminlte.css" />
     <Content Include="lib\dist\css\adminlte.min.css" />
     <Content Include="lib\dist\css\alt\adminlte.components.css" />
@@ -2326,6 +2339,7 @@
     <Content Include="lib\plugins\summernote\summernote.js.map" />
     <Content Include="lib\plugins\summernote\summernote.min.js.map" />
     <Content Include="lib\plugins\toastr\toastr.js.map" />
+    <Content Include="Images\vn-galaxy-s24-s928-sm-s928bztcxxv-539307552.webp" />
     <None Include="Models\DanhMucModel.dbml.layout">
       <DependentUpon>DanhMucModel.dbml</DependentUpon>
     </None>

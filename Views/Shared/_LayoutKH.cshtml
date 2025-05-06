@@ -1,5 +1,5 @@
 ﻿@{
-    var userName = Session["Name"] as string;
+    var userName = Session["Name"] as string; 
 }
 <html>
 <head>
@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <script src="~/Scripts/jquery-3.7.0.min.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
     <link href="~/Eshopper/css/bootstrap.min.css" rel="stylesheet">
     <link href="~/Eshopper/css/font-awesome.min.css" rel="stylesheet">
     <link href="~/Eshopper/css/prettyPhoto.css" rel="stylesheet">
@@ -40,12 +40,10 @@
             background-color: #fff; /* Màu nền của header */
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ nhẹ cho header */
         }
-
         html, body {
             height: 100%;
             margin: 0;
         }
-
         body {
             display: flex;
             flex-direction: column; /* Sắp xếp các phần tử con theo chiều dọc */
@@ -55,7 +53,6 @@
         body {
             margin-top: 150px; /* Đặt khoảng cách trên cho body để không bị che bởi header */
         }
-
         main {
             flex: 1; /* Nội dung chiếm hết không gian còn lại */
         }
@@ -267,6 +264,7 @@
     });
     </script>
     @Scripts.Render("~/bundles/jquery")
+
     <script src="~/Eshopper/js/jquery.js"></script>
     <script src="~/Eshopper/js/bootstrap.min.js"></script>
     <script src="~/Eshopper/js/jquery.scrollUp.min.js"></script>
@@ -274,6 +272,6 @@
     <script src="~/Eshopper/js/jquery.prettyPhoto.js"></script>
     <script src="~/Eshopper/js/main.js"></script>
     @RenderSection("Scripts", required: false)
-
+    
 </body>
 </html>
